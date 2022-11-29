@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 from PIL import Image
 
-loaded_model = pickle.load(open('C:/Users/temp/AI Credit Card Fraud detection proj/trained_fraud_model.sav', 'rb'))
+loaded_model = pickle.load(open('trained_fraud_model.sav', 'rb'))
 
 
 # creating a function for prediction
